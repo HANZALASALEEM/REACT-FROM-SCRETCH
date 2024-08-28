@@ -5,4 +5,4 @@ import "./body.css";
 
 const container = document.getElementById("app-root")!;
 const root = createRoot(container);
-root.render(<h1 className="text-xl text-blue-900">Hello React!</h1>);
+root.render(<h1 className="text-3xl text-blue-900">Hello React!</h1>);
