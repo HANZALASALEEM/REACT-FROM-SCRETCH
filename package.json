@@ -1,0 +1,11 @@
+{
+  "name": "react-from-scretch",
+  "version": "1.0.0",
+  "description": "This App is only for the learning purpose. Learn how to create a React App manual from scretch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HANZALA SALEEM",
+  "license": "ISC"
+}
