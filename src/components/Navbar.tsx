@@ -21,7 +21,7 @@ function Navbar() {
         </li>
         <li className="h-full flex items-center">
           <NavLink
-            to="/referential"
+            to="/referentialEquality"
             className={({ isActive }) => (isActive ? 'border-b-2 border-blue-600' : '')}>
             Referential Equality
           </NavLink>
