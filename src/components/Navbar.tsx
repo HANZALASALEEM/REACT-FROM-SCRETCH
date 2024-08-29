@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Navbar() {
+  useEffect(() => {}, []);
   return (
     <nav className="h-14">
       <ul className="h-full flex flex-row items-center justify-between px-4">

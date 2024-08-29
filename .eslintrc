@@ -1,7 +1,7 @@
 {
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off" //? For this we dont need to import react explicitly (no need in React 17+)
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
-  "parser": "@typescript-eslint/parser"
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"], //? We use prettier using ESLint in this project
+  "parser": "@typescript-eslint/parser" //?Provide the typescript specific capabilities
 }
