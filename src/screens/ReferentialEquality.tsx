@@ -24,9 +24,9 @@ function ReferentialEquality() {
           had the same reference as the previous state, React did not trigger a re-render.
         </p>
         <p className="text-xl text-gray-600 hyphens-auto text-justify mb-3">
-          To address this, it's essential to understand that React uses the reference of an object,
-          not its content, to determine changes. When the state is updated with a new object that
-          has a different memory reference, React will recognize this as a change and trigger a
+          To address this, it&apos;s essential to understand that React uses the reference of an
+          object, not its content, to determine changes. When the state is updated with a new object
+          that has a different memory reference, React will recognize this as a change and trigger a
           re-render. In the provided code, both the initial state and the state set by the API call
           were the same object reference, leading React to believe no update was necessary. The
           solution is to ensure that each state update uses a completely new object reference. By

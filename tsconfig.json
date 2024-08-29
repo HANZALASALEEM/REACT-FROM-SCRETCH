@@ -3,8 +3,8 @@
     "target": "ESNext", //? Transpile typescript if low version its compatible with even older browsers
     "allowJs": true, //? Also check JS files (No need in this project)
     "esModuleInterop": true, //? Import from CommonJS module
-    "allowSyntheticDefaultImports": true, //?Allows default imports from modules that may not have a default export
-    "strict": true, //? Strict type checking
+    "allowSyntheticDefaultImports": true, //? Allows default imports from modules that may not have a default export
+    "strict": true, //? Strict type checking (No need in this project)
     "forceConsistentCasingInFileNames": true, //? Ensures that file names are consistently cased (cause ambiguity during import)
     "module": "esnext", //? Useful for webpack
     "moduleResolution": "node", //? Necessary for importing files (specially from node_module)
