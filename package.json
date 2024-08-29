@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This App is only for the learning purpose. Learn how to create a React App manual from scretch.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "webpack serve --port 3000",
     "build": "NODE_ENV=production webpack"

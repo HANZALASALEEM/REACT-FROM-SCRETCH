@@ -1,14 +1,15 @@
 /* eslint-disable no-undef */
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 const prod = process.env.NODE_ENV === 'production';
 
-module.exports = {
+const config = {
   mode: prod ? 'production' : 'development',
-  entry: './src/index.tsx', //? Webpack starts bundling from here
+  entry: './src/index.tsx',
   output: {
-    path: __dirname + '/dist/', //? Where the bundled files will be output
+    path: path.resolve('./dist'), //? Where the bundled files will be output
     publicPath: '/'
   },
   module: {
@@ -38,3 +39,5 @@ module.exports = {
     new MiniCssExtractPlugin() //? Generate a seperate css file to avoid inline CSS and improve loading performance (No need in this project)
   ]
 };
+
+export default config;
